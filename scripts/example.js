@@ -1,6 +1,8 @@
+let Direction = {}
+console.log(Direction[Direction["Up"] = 0] = "Up")
+console.log(Direction)
+console.log(Direction[Direction.Up])
+console.log(typeof Direction.Up)
 
-let numbers = [1, 2, 3, 4];
 
-numbers.forEach((num)=>{
-    console.log(num);
-});
+

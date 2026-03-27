@@ -19,7 +19,9 @@ class User{
 }
 
 let user1 = new User("Bharathi", 22);
-// console.log(user1.print());
-console.log(user1.name);
-user1.name = "Bharath";
-console.log(user1.name);
+let user2 = new User("Bharath", 23);
+console.log(user1.print());
+console.log(user2.print());
+// console.log(user1.name);
+// user1.name = "Bharath";
+// console.log(user1.name);

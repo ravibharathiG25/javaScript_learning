@@ -1,4 +1,7 @@
-let name:string = "Bharathi"
-console.log(name)
+let user:any = {}
 
-export{}
+user.name = "Bharathi"
+user.age = 22
+user.id = 1
+
+console.log(user)
